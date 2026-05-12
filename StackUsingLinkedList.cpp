@@ -64,3 +64,8 @@ class stack{
         return top == NULL;
     }
 };
+
+int main()
+{
+    
+}
