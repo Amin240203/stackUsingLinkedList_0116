@@ -41,4 +41,7 @@ class stack{
         top = top->next;
         cout << "Pop value: " << temp->data << endl;
     }
+
+    void peek()
+    {}
 };
