@@ -11,3 +11,7 @@ class Node{
         next = NULL;
     }
 };
+
+Class stack{
+
+};
