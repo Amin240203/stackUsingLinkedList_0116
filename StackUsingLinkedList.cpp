@@ -32,5 +32,13 @@ class stack{
     }
     void pop()
     {
+        if(isEmpty())
+        {
+            cout << "Stack is empty. Cannot pop." << endl;
+        }
+
+        Node* temp = top;
+        top = top->next;
+        cout << "Pop value: " << temp->data << endl;
     }
 };
